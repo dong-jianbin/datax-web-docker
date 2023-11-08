@@ -7,6 +7,7 @@ ADD ./clickhouse.list /etc/apt/sources.list.d/
 RUN apt-get update && \
 apt-get install -y clickhouse-client && \
 apt-get install -y mysql-server && \
+apt-get install -y lftp && \
 apt-get install -y vim && \
 apt-get install -y python3 && \
 apt-get install -y python3-pip && \
