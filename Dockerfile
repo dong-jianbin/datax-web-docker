@@ -17,6 +17,7 @@ pip3 install --upgrade pip && \
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip && \
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pymysql && \
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple psycopg2 && \
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple openpyxl && \
 rm /usr/bin/python && \
 ln -s /usr/bin/python3 /usr/bin/python
 
