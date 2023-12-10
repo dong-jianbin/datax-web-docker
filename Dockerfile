@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk8:jdk8u-centos-nightly
 
-ADD ./clickhouse.repo /etc/yum.repos.d/
+#ADD ./clickhouse.repo /etc/yum.repos.d/
 
 RUN yum install -y vim && \
     yum install -y mysql && \
