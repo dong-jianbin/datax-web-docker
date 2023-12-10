@@ -8,7 +8,7 @@ RUN yum install -y vim && \
     yum install -y openssl && \
     yum install -y openssh-server && \
     yum install -y openssh* && \
-    yum install -y clickhouse-client && \
+#    yum install -y clickhouse-client && \
     rm /usr/bin/python && \
     ln -s /usr/bin/python3.6 /usr/bin/python
 
